@@ -1,0 +1,35 @@
+:root {
+  --ff: "Mulish", sans-serif;
+
+  --white: #ffffff;
+  --black: #000000;
+  --grey: #808080;
+
+  --f-header: normal 400 16rem/100% var(--ff);
+  --f-title: normal 700 46rem/121.739% var(--ff);
+  --f-desc: normal 400 20rem/150% var(--ff);
+
+  --f-title-accordion: normal 700 20rem/120% var(--ff-title);
+  --f-desc-accordion: normal 400 16rem/162.5% var(--ff);
+
+  --transition: 0.2s all ease-in-out;
+  --transform: scale(1.2);
+
+  --c-hover-txt: var(--black);
+}
+
+@include desktop-small {
+  :root {
+    --f-header: normal 400 15rem/100% var(--ff);
+    --f-title: normal 700 38rem/121.739% var(--ff-title);
+    --f-desc: normal 400 18rem/150% var(--ff);
+  }
+}
+
+@include tablet-small {
+  :root {
+    --f-header: normal 400 14rem/100% var(--ff);
+    --f-title: normal 700 34rem/121.739% var(--ff-title);
+    --f-desc: normal 400 16rem/150% var(--ff);
+  }
+}
