@@ -9,13 +9,10 @@
   --f-title: normal 700 46rem/121.739% var(--ff);
   --f-desc: normal 400 20rem/150% var(--ff);
 
-  --f-title-accordion: normal 700 20rem/120% var(--ff-title);
-  --f-desc-accordion: normal 400 16rem/162.5% var(--ff);
-
   --transition: 0.2s all ease-in-out;
   --transform: scale(1.2);
 
-  --c-hover-txt: var(--black);
+  --c-hover-txt: #ffa600;
 }
 
 @include desktop-small {
